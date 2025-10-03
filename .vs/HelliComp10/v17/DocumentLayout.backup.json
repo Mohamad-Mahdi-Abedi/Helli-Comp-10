@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\moham\\OneDrive\\Desktop\\AllData\\codes\\HelliComp 10\\Helli-Comp-10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E30FBF75-4EC4-458F-97A7-6497712AC2E1}|HelliComp10\\HelliComp10.csproj|c:\\users\\moham\\onedrive\\desktop\\alldata\\codes\\hellicomp 10\\helli-comp-10\\hellicomp10\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30FBF75-4EC4-458F-97A7-6497712AC2E1}|HelliComp10\\HelliComp10.csproj|solutionrelative:hellicomp10\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30FBF75-4EC4-458F-97A7-6497712AC2E1}|HelliComp10\\HelliComp10.csproj|c:\\users\\moham\\onedrive\\desktop\\alldata\\codes\\hellicomp 10\\helli-comp-10\\hellicomp10\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E30FBF75-4EC4-458F-97A7-6497712AC2E1}|HelliComp10\\HelliComp10.csproj|solutionrelative:hellicomp10\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Desktop\\AllData\\codes\\HelliComp 10\\Helli-Comp-10\\HelliComp10\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HelliComp10\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\moham\\OneDrive\\Desktop\\AllData\\codes\\HelliComp 10\\Helli-Comp-10\\HelliComp10\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "HelliComp10\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAAMwGAAAAAAAAAAAQwNwGAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T14:14:41.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Desktop\\AllData\\codes\\HelliComp 10\\Helli-Comp-10\\HelliComp10\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "HelliComp10\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\moham\\OneDrive\\Desktop\\AllData\\codes\\HelliComp 10\\Helli-Comp-10\\HelliComp10\\MainWindow.xaml",
+              "RelativeToolTip": "HelliComp10\\MainWindow.xaml",
+              "ViewState": "AgIAAE8BAAAAAAAAAAAuwJsBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-03T14:14:39.7Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

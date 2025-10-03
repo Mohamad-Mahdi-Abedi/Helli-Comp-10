@@ -1,0 +1,412 @@
+<Window
+    x:Class="HelliComp10.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HelliComp10"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="HelliComp10">
+
+    <!-- پس‌زمینه Mica -->
+    <Window.SystemBackdrop>
+        <!--<MicaBackdrop/>-->
+        <MicaBackdrop Kind="BaseAlt"/>
+    </Window.SystemBackdrop>
+    <Grid x:Name="GridMadar">
+        <Grid x:Name="RootGrid" Margin="0,-48,0,32">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="48"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- ناحیه Title Bar -->
+            <Grid x:Name="AppTitleBar" Margin="0,48,0,-48" Height="48" Grid.Row="0"/>
+
+            <!-- محتوای اصلی -->
+            <Grid Grid.Row="1">
+                <NavigationView x:Name="NavigationView"
+                PaneDisplayMode="Top"
+                IsSettingsVisible="False"
+                SelectionChanged="NavigationView_SelectionChanged"
+                IsBackButtonVisible="Collapsed">
+
+                    <NavigationView.MenuItems>
+                        <NavigationViewItem Content="خانه" Tag="Chat">
+                            <NavigationViewItem.Icon>
+                                <SymbolIcon Symbol="Home"/>
+                            </NavigationViewItem.Icon>
+                        </NavigationViewItem>
+                        <NavigationViewItem Content="ویرایشگر" Tag="editor" IsSelected="True">
+                            <NavigationViewItem.Icon>
+                                <SymbolIcon Symbol="Edit"/>
+                            </NavigationViewItem.Icon>
+                        </NavigationViewItem>
+                        <NavigationViewItem Content="تنظیمات" Tag="setting">
+                            <NavigationViewItem.Icon>
+                                <SymbolIcon Symbol="Setting"/>
+                            </NavigationViewItem.Icon>
+                        </NavigationViewItem>
+                    </NavigationView.MenuItems>
+
+                    <NavigationView.Content>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="250"/>
+                                <ColumnDefinition Width="1"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Rectangle x:Name="splitfilecode" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+
+                            <Grid x:Name="files" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="40"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <TextBox x:Name="SearchTextBox" PlaceholderText="Search files and folders" Margin="4" VerticalAlignment="Center">
+                                        <TextBox.Resources>
+                                            <SolidColorBrush x:Key="TextControlBackground" Color="Transparent"/>
+                                            <SolidColorBrush x:Key="TextControlBackgroundPointerOver" Color="Transparent"/>
+                                            <SolidColorBrush x:Key="TextControlBackgroundFocused" Color="Transparent"/>
+                                            <SolidColorBrush x:Key="TextControlBackgroundDisabled" Color="Transparent"/>
+                                            <SolidColorBrush x:Key="TextControlBorderBrush" Color="Transparent"/>
+                                            <SolidColorBrush x:Key="TextControlBorderBrushPointerOver" Color="Transparent"/>
+                                            <SolidColorBrush x:Key="TextControlBorderBrushFocused" Color="Transparent"/>
+                                            <SolidColorBrush x:Key="TextControlBorderBrushDisabled" Color="Transparent"/>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                    <Button Grid.Column="1"
+                                        VerticalAlignment="Center"
+                                        Height="32"
+                                        Width="32"
+                                        Margin="0,0,4,0"
+                                        Background="Transparent"
+                                        BorderBrush="Transparent"
+                                        ToolTipService.ToolTip="New file"
+                                        Click="MenuFlyout_New_Click"
+                                        HorizontalAlignment="Right">
+                                        <!-- :| -->
+                                        <FontIcon Glyph="&#xECC8;" Margin="-7,-4" FontSize="18"/>
+                                    </Button>
+                                </Grid>
+                                <Rectangle x:Name="BackOfFile" Fill="#272727" Grid.Row="1"/>
+
+                                <Grid Margin="10" Grid.Row="1">
+                                    <!-- TreeView for files and folders -->
+                                    <TreeView x:Name="FilesTreeView" SelectionMode="None">
+                                        <TreeView.ItemTemplate>
+                                            <DataTemplate>
+                                                <TreeViewItem ItemsSource="{Binding Children}">
+                                                    <StackPanel Orientation="Horizontal" Spacing="10">
+                                                        <ContentControl Content="{Binding Icon}" VerticalAlignment="Center"/>
+                                                        <TextBlock VerticalAlignment="Center" Text="{Binding Name}"/>
+                                                    </StackPanel>
+                                                </TreeViewItem>
+                                            </DataTemplate>
+                                        </TreeView.ItemTemplate>
+                                    </TreeView>
+                                </Grid>
+
+                            </Grid>
+
+                            <Rectangle Grid.Column="2" x:Name="BackOfTextBox" Fill="#272727" Margin="0,40,0,0"/>
+
+                            <Grid x:Name="editorandterminal" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Grid.Column="2">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="2*" />
+                                    <RowDefinition Height="32" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+
+                                <!-- TabView -->
+                                <TabView x:Name="MainTabView"
+                                    Grid.Row="0"
+                                    HorizontalAlignment="Stretch"
+                                    VerticalAlignment="Stretch"
+                                    AddTabButtonClick="MainTabView_AddTabButtonClick_r"
+                                    TabCloseRequested="MainTabView_TabCloseRequested">
+
+                                    <!-- منو -->
+                                    <TabView.TabStripHeader>
+                                        <MenuBar>
+                                            <!--<MenuBarItem Title="File">
+                                                <MenuFlyoutItem Text="New" Click="MenuFlyoutItem_Click">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control" Key="N"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                                <MenuFlyoutItem Text="Open..."/>
+                                                <MenuFlyoutItem Text="Save"/>
+                                            </MenuBarItem>-->
+
+                                            <MenuBarItem Title="File">
+                                                <MenuFlyoutItem Text="New" Click="MenuFlyoutItem_Click">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control" Key="N"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                                <MenuFlyoutSeparator />
+                                                <MenuFlyoutItem Text="Open">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control" Key="O"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                                <MenuFlyoutSeparator />
+                                                <MenuFlyoutItem Text="Save">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control" Key="S"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                                <MenuFlyoutItem Text="Save as">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control, Shift" Key="N"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                                <MenuFlyoutItem Text="Save all">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control,Menu" Key="N"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                                <MenuFlyoutSeparator />
+                                                <MenuFlyoutSubItem Text="Send for">
+                                                    <MenuFlyoutItem Text="سوال 1 (نام سوال)">
+                                                        <MenuFlyoutItem.KeyboardAccelerators>
+                                                            <KeyboardAccelerator Modifiers="Control,Menu" Key="Number1"/>
+                                                        </MenuFlyoutItem.KeyboardAccelerators>
+                                                    </MenuFlyoutItem>
+                                                    <MenuFlyoutItem Text="سوال 2 (نام سوال)">
+                                                        <MenuFlyoutItem.KeyboardAccelerators>
+                                                            <KeyboardAccelerator Modifiers="Control,Menu" Key="Number2"/>
+                                                        </MenuFlyoutItem.KeyboardAccelerators>
+                                                    </MenuFlyoutItem>
+                                                    <MenuFlyoutItem Text="سوال 3 (نام سوال)">
+                                                        <MenuFlyoutItem.KeyboardAccelerators>
+                                                            <KeyboardAccelerator Modifiers="Control,Menu" Key="Number3"/>
+                                                        </MenuFlyoutItem.KeyboardAccelerators>
+                                                    </MenuFlyoutItem>
+                                                    <MenuFlyoutItem Text="سوال 4 (نام سوال)">
+                                                        <MenuFlyoutItem.KeyboardAccelerators>
+                                                            <KeyboardAccelerator Modifiers="Control,Menu" Key="Number4"/>
+                                                        </MenuFlyoutItem.KeyboardAccelerators>
+                                                    </MenuFlyoutItem>
+                                                    <MenuFlyoutItem Text="سوال 5 (نام سوال)">
+                                                        <MenuFlyoutItem.KeyboardAccelerators>
+                                                            <KeyboardAccelerator Modifiers="Control,Menu" Key="Number5"/>
+                                                        </MenuFlyoutItem.KeyboardAccelerators>
+                                                    </MenuFlyoutItem>
+                                                    <MenuFlyoutItem Text="سوال 6 (نام سوال)">
+                                                        <MenuFlyoutItem.KeyboardAccelerators>
+                                                            <KeyboardAccelerator Modifiers="Control,Menu" Key="Number6"/>
+                                                        </MenuFlyoutItem.KeyboardAccelerators>
+                                                    </MenuFlyoutItem>
+                                                    <MenuFlyoutItem Text="سوال 7 (نام سوال)">
+                                                        <MenuFlyoutItem.KeyboardAccelerators>
+                                                            <KeyboardAccelerator Modifiers="Control,Menu" Key="Number7"/>
+                                                        </MenuFlyoutItem.KeyboardAccelerators>
+                                                    </MenuFlyoutItem>
+                                                    <MenuFlyoutItem Text="سوال 8 (نام سوال)">
+                                                        <MenuFlyoutItem.KeyboardAccelerators>
+                                                            <KeyboardAccelerator Modifiers="Control,Menu" Key="Number8"/>
+                                                        </MenuFlyoutItem.KeyboardAccelerators>
+                                                    </MenuFlyoutItem>
+                                                    <MenuFlyoutItem Text="سوال 9 (نام سوال)">
+                                                        <MenuFlyoutItem.KeyboardAccelerators>
+                                                            <KeyboardAccelerator Modifiers="Control,Menu" Key="Number9"/>
+                                                        </MenuFlyoutItem.KeyboardAccelerators>
+                                                    </MenuFlyoutItem>
+                                                </MenuFlyoutSubItem>
+                                                <MenuFlyoutItem Text="Share">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control" Key="E"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                            </MenuBarItem>
+
+                                            <MenuBarItem Title="Edit">
+                                                <MenuFlyoutItem Text="Undo">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control" Key="Z"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                                <MenuFlyoutItem Text="Redo">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control" Key="Y"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                                <MenuFlyoutSeparator />
+                                                <MenuFlyoutItem Text="Cut">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control" Key="X"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                                <MenuFlyoutItem Text="Copy">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control" Key="C"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                                <MenuFlyoutItem Text="Paste" Click="MenuFlyoutItem_Click_1">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control" Key="V"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                                <MenuFlyoutSeparator />
+                                                <MenuFlyoutItem Text="Find">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control" Key="F"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                                <MenuFlyoutItem Text="Replaace">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control" Key="H"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                                <!--بعدا بره فایلا هم میشه گذاشت-->
+                                                <MenuFlyoutSeparator />
+                                                <MenuFlyoutItem Text="Toggle comment (شما با همون کنترل بک اسلش بزنی حله)">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control" Key="U"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                                <MenuFlyoutItem Text="Remove all comments">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control" Key="R"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                            </MenuBarItem>
+
+                                            <MenuBarItem Title="View">
+                                                <MenuFlyoutItem Text="Zoom in">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control" Key="Add"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                                <MenuFlyoutItem Text="Zoom out">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Control" Key="Subtract"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                                <MenuFlyoutSeparator />
+                                                <MenuFlyoutItem Text="Warp line">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Menu" Key="Z"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                                <MenuFlyoutSeparator />
+                                                <MenuFlyoutItem Text="Status bar">
+                                                    <MenuFlyoutItem.KeyboardAccelerators>
+                                                        <KeyboardAccelerator Modifiers="Menu" Key="S"/>
+                                                    </MenuFlyoutItem.KeyboardAccelerators>
+                                                </MenuFlyoutItem>
+                                            </MenuBarItem>
+                                        </MenuBar>
+                                    </TabView.TabStripHeader>
+
+                                    <!-- دکمه‌ی Run در فوتر -->
+                                    <TabView.TabStripFooter>
+                                        <Button Margin="0,0,4,0"
+                                            VerticalAlignment="Center"
+                                            Height="32"
+                                            Width="32"
+                                            Background="Transparent"
+                                            BorderBrush="Transparent"
+                                            HorizontalAlignment="Right"
+                                            ToolTipService.ToolTip="Run Code"
+                                            Click="RunButton_Click">
+                                            <FontIcon Margin="-7,-4" FontSize="18" Glyph="&#xE768;" />
+                                        </Button>
+                                    </TabView.TabStripFooter>
+
+                                    <!-- هماهنگی رنگ‌ها با Mica -->
+                                    <TabView.Resources>
+                                        <SolidColorBrush x:Name="TabColor1" x:Key="TabViewItemHeaderBackgroundSelected" Color="#272727"/>
+                                        <SolidColorBrush x:Name="TabColor2" x:Key="TabViewItemHeaderBackgroundPointerOver" Color="#272727"/>
+                                    </TabView.Resources>
+
+                                </TabView>
+
+                                <!-- Splitter -->
+                                <Border x:Name="Splitter" Grid.Row="1"
+                                    HorizontalAlignment="Stretch"
+                                    VerticalAlignment="Stretch"
+                                    PointerPressed="Splitter_PointerPressed"
+                                    PointerMoved="Splitter_PointerMoved"
+                                    PointerReleased="Splitter_PointerReleased">
+                                    <Grid>
+                                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                            <FontIcon Glyph="&#xE756;" Margin="4,0,0,0"/>
+                                            <TextBlock Text="Terminal" Margin="4,0,0,0"/>
+                                        </StackPanel>
+
+                                        <FontIcon Glyph="&#xE76F;" VerticalAlignment="Center"/>
+
+                                        <Rectangle Grid.Row="1" x:Name="terminalresizer1" VerticalAlignment="Top" Height="1"/>
+
+                                        <Rectangle Grid.Row="1" x:Name="terminalresizer2" VerticalAlignment="Bottom" Height="1"/>
+
+                                        <!-- به اجبار اینطوری نوشتم حلال کنید به مولا -->
+                                        <local:NewGrid
+                                            x:Name="NewGrid"
+                                            HorizontalAlignment="Stretch"
+                                            VerticalAlignment="Stretch"
+                                            Background="Transparent"
+                                            PointerEntered="NewGrid_PointerEntered"
+                                            PointerExited="NewGrid_PointerExited">
+                                        </local:NewGrid>
+
+                                        <Button Click="OnResetClicked" Height="28" Margin="0,0,4,0" Width="28" Padding="0" HorizontalAlignment="Right" Background="Transparent" BorderBrush="Transparent" VerticalAlignment="Center" ToolTipService.ToolTip="Reset Terminal">
+                                            <FontIcon Glyph="&#xEBC4;" />
+                                        </Button>
+                                    </Grid>
+                                </Border>
+
+                                <!-- Terminal -->
+                                <Grid Grid.Row="2" x:Name="terminalcontent">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+
+                                    <!-- خروجی ترمینال -->
+                                    <ScrollViewer x:Name="OutputScroll" Grid.Row="0" VerticalScrollBarVisibility="Auto">
+                                        <RichTextBlock x:Name="OutputText" Margin="8" FontFamily="/Assets/Ubuntu-Regular.ttf#Ubuntu" TextTrimming="CharacterEllipsis" IsTextSelectionEnabled="True" TextWrapping="Wrap"/>
+                                    </ScrollViewer>
+
+                                    <Rectangle Grid.Row="1" x:Name="terminalsplitor" VerticalAlignment="Top" Height="1"/>
+
+                                    <StackPanel Height="32" Grid.Row="1" Orientation="Horizontal">
+                                        <TextBlock x:Name="CurrentDirText" IsTextSelectionEnabled="True" Margin="8,-1,0,0" Text="C:\\" FontFamily="/Assets/Ubuntu-Regular.ttf#Ubuntu" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" />
+                                        <TextBox x:Name="InputText" Margin="-5,4,0,0" Width="10000" FontFamily="/Assets/Ubuntu-Regular.ttf#Ubuntu" HorizontalAlignment="Stretch" VerticalAlignment="Center" KeyDown="OnInputKeyDown" FlowDirection="LeftToRight" TextAlignment="Left">
+                                            <TextBox.Resources>
+                                                <SolidColorBrush x:Key="TextControlBackground" Color="Transparent"/>
+                                                <SolidColorBrush x:Key="TextControlBackgroundPointerOver" Color="Transparent"/>
+                                                <SolidColorBrush x:Key="TextControlBackgroundFocused" Color="Transparent"/>
+                                                <SolidColorBrush x:Key="TextControlBackgroundDisabled" Color="Transparent"/>
+                                                <SolidColorBrush x:Key="TextControlBorderBrush" Color="Transparent"/>
+                                                <SolidColorBrush x:Key="TextControlBorderBrushPointerOver" Color="Transparent"/>
+                                                <SolidColorBrush x:Key="TextControlBorderBrushFocused" Color="Transparent"/>
+                                                <SolidColorBrush x:Key="TextControlBorderBrushDisabled" Color="Transparent"/>
+                                            </TextBox.Resources>
+                                        </TextBox>
+                                    </StackPanel>
+
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                    </NavigationView.Content>
+                </NavigationView>
+            </Grid>
+        </Grid>
+        <Rectangle x:Name="bottomsplitorstatusline" Fill="LightGray" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" Margin="0,0,0,32" Height="1"></Rectangle>
+        <Grid Background="{ThemeResource SystemAccentColor}" Visibility="Collapsed" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" Height="32">
+
+        </Grid>
+    </Grid>
+</Window>
+    

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HelliComp10 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "HelliComp10 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
