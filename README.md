@@ -29,8 +29,8 @@
 ## 📸 اسکرین‌شات‌ها
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Mohamad-Mahdi-Abedi/Helli-Comp-10/main/Screenshot/Screenshot%202025-10-03%20183340.png" width="600" style="border-radius:20px;"><br><br>
-  <img src="https://raw.githubusercontent.com/Mohamad-Mahdi-Abedi/Helli-Comp-10/main/Screenshot/Screenshot%202025-10-03%20183200.png" width="600" style="border-radius:20px;">
+  <img src="https://raw.githubusercontent.com/Mohamad-Mahdi-Abedi/Helli-Comp-10/main/Screenshot/Editor Light.png" width="600"><br><br>
+  <img src="https://raw.githubusercontent.com/Mohamad-Mahdi-Abedi/Helli-Comp-10/main/Screenshot/Editor Dark.png" width="600">
 </p>
 
 ---
