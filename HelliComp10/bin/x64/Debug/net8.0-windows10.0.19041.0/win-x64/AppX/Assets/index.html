@@ -19,23 +19,15 @@
             border-radius: 8px;
         }
     </style>
-    <script src="file:////C:/Temp/monaco-temp/node_modules/monaco-editor/min/vs/loader.js"></script>
+    <script src="Temp/monaco-temp/node_modules/monaco-editor/min/vs/loader.js"></script>
     <script>
-        require.config({ paths: { vs: 'file:////C:/Temp/monaco-temp/node_modules/monaco-editor/min/vs/' } });
+        require.config({ paths: { vs: 'Temp/monaco-temp/node_modules/monaco-editor/min/vs' } });
 
         require(['vs/editor/editor.main'], function () {
             monaco.editor.defineTheme('dark-plus-custom', { base: 'vs-dark', inherit: true, rules: [], colors: { 'editor.background': '#272727' } });
             monaco.editor.defineTheme('light-custom', { base: 'vs', inherit: true, rules: [], colors: { 'editor.background': '#f9f9f9' } });
 
-            const sample = `class Person:
-            def __init__(self, name: str):
-                self.name = name
-
-            def say_hello(self):
-                print(f"Hello, {self.name}!")
-
-p = Person("World")
-p.say_hello()`;
+            const sample = `print("Hello World!")`;
 
             window.editor = monaco.editor.create(document.getElementById('container'), {
                 value: sample,

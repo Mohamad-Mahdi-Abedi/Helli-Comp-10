@@ -145,7 +145,7 @@
                                                 <MenuFlyoutItem Text="Open..."/>
                                                 <MenuFlyoutItem Text="Save"/>
                                             </MenuBarItem>-->
-
+                                            
                                             <MenuBarItem Title="File">
                                                 <MenuFlyoutItem x:ConnectionId='24' Text="New"                             >
                                                     <MenuFlyoutItem.KeyboardAccelerators>
@@ -280,7 +280,7 @@
                                                     </MenuFlyoutItem.KeyboardAccelerators>
                                                 </MenuFlyoutItem>
                                             </MenuBarItem>
-
+                                            
                                             <MenuBarItem Title="View">
                                                 <MenuFlyoutItem Text="Zoom in">
                                                     <MenuFlyoutItem.KeyboardAccelerators>
@@ -343,13 +343,13 @@
                                             <FontIcon Glyph="&#xE756;" Margin="4,0,0,0"/>
                                             <TextBlock Text="Terminal" Margin="4,0,0,0"/>
                                         </StackPanel>
-
+                                        
                                         <FontIcon Glyph="&#xE76F;" VerticalAlignment="Center"/>
 
                                         <Rectangle x:ConnectionId='19' Grid.Row="1" x:Name="terminalresizer1" VerticalAlignment="Top" Height="1"/>
-
+                                        
                                         <Rectangle x:ConnectionId='20' Grid.Row="1" x:Name="terminalresizer2" VerticalAlignment="Bottom" Height="1"/>
-
+                                        
                                         <!-- به اجبار اینطوری نوشتم حلال کنید به مولا -->
                                         <local:NewGrid x:ConnectionId='21'
                                             x:Name="NewGrid"
@@ -359,7 +359,7 @@
                                                                                    
                                                                                  >
                                         </local:NewGrid>
-
+                                        
                                         <Button x:ConnectionId='22'                        Height="28" Margin="0,0,4,0" Width="28" Padding="0" HorizontalAlignment="Right" Background="Transparent" BorderBrush="Transparent" VerticalAlignment="Center" ToolTipService.ToolTip="Reset Terminal">
                                             <FontIcon Glyph="&#xEBC4;" />
                                         </Button>
@@ -405,7 +405,7 @@
         </Grid>
         <Rectangle x:ConnectionId='4' x:Name="bottomsplitorstatusline" Fill="LightGray" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" Margin="0,0,0,32" Height="1"></Rectangle>
         <Grid Background="{ThemeResource SystemAccentColor}" Visibility="Collapsed" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" Height="32">
-
+            
         </Grid>
     </Grid>
 </Window>

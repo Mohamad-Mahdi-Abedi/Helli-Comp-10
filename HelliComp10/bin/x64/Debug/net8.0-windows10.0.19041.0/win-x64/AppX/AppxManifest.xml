@@ -7,8 +7,8 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="cfdf9537-42f3-4b6f-bbcd-dd7d0b3b5683" Publisher="CN=moham" Version="1.0.0.0" ProcessorArchitecture="x64" />
-  <mp:PhoneIdentity PhoneProductId="cfdf9537-42f3-4b6f-bbcd-dd7d0b3b5683" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="8787ed7d-39d8-46b2-81e3-47db29ec3e69" Publisher="CN=moham" Version="1.0.0.0" ProcessorArchitecture="x64" />
+  <mp:PhoneIdentity PhoneProductId="8787ed7d-39d8-46b2-81e3-47db29ec3e69" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>HelliComp10</DisplayName>
     <PublisherDisplayName>moham</PublisherDisplayName>
@@ -17,7 +17,6 @@
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
     <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
-    <PackageDependency Name="Microsoft.WindowsAppRuntime.1.8" MinVersion="8000.625.330.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
@@ -33,21 +32,8 @@
   <Capabilities>
     <rescap:Capability Name="runFullTrust" />
   </Capabilities>
-  <Extensions>
-    <Extension Category="windows.activatableClass.inProcessServer">
-      <InProcessServer>
-        <Path>Microsoft.Web.WebView2.Core.dll</Path>
-        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2CompositionController" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2Environment" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2ControllerWindowReference" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2CustomSchemeRegistration" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2Controller" ThreadingModel="both" />
-      </InProcessServer>
-    </Extension>
-  </Extensions>
   <build:Metadata>
-    <build:Item Name="Microsoft.UI.Xaml.Markup.Compiler.dll" Version="3.0.0.2509" />
-    <build:Item Name="makepri.exe" Version="10.0.26100.6584 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.UI.Xaml.Markup.Compiler.dll" Version="3.0.0.2506" />
+    <build:Item Name="makepri.exe" Version="10.0.26100.4948 (WinBuild.160101.0800)" />
   </build:Metadata>
 </Package>

@@ -8,9 +8,9 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
-    <PackageIdentityName>cfdf9537-42f3-4b6f-bbcd-dd7d0b3b5683</PackageIdentityName>
+    <PackageIdentityName>8787ed7d-39d8-46b2-81e3-47db29ec3e69</PackageIdentityName>
     <PackageIdentityPublisher>CN=moham</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,33 +18,1097 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>AECE48721E545E4CAE6D23E53FA0AEA0C5F0E6ED31024DF628709A9B9B749EFF</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>cfdf9537-42f3-4b6f-bbcd-dd7d0b3b5683_1.0.0.0_x64__91w6cbj5h5wm0</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>cfdf9537-42f3-4b6f-bbcd-dd7d0b3b5683_91w6cbj5h5wm0!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>cfdf9537-42f3-4b6f-bbcd-dd7d0b3b5683</RegisteredPackageID>
+    <LayoutDir>C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
+    <RegisteredManifestChecksum>8B90E583898F055714277F817BB9C731A1DF73F1AAE06939FAD9B1A2F744273F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>8787ed7d-39d8-46b2-81e3-47db29ec3e69_1.0.0.0_x64__91w6cbj5h5wm0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>8787ed7d-39d8-46b2-81e3-47db29ec3e69_91w6cbj5h5wm0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>8787ed7d-39d8-46b2-81e3-47db29ec3e69</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=moham</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-10-03T14:50:52.984</Modified>
+      <Modified>2025-09-18T19:48:30.478</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\HelliComp10.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2025-09-18T19:48:29.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\HelliComp10.runtimeconfig.json">
       <PackagePath>HelliComp10.runtimeconfig.json</PackagePath>
-      <Modified>2025-10-03T14:12:09.362</Modified>
+      <Modified>2025-08-29T09:41:08.880</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
-      <PackagePath>HelliComp10.exe</PackagePath>
-      <Modified>2025-10-03T14:50:52.779</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\HelliComp10.dll">
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\HelliComp10.dll">
       <PackagePath>HelliComp10.dll</PackagePath>
-      <Modified>2025-10-03T14:50:52.773</Modified>
+      <Modified>2025-09-18T19:48:27.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <Modified>2025-08-29T10:02:44.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
+      <PackagePath>HelliComp10.exe</PackagePath>
+      <Modified>2025-09-18T19:48:27.714</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\CoreMessagingXP.dll">
+      <PackagePath>CoreMessagingXP.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\dcompi.dll">
+      <PackagePath>dcompi.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\dwmcorei.dll">
+      <PackagePath>dwmcorei.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\DwmSceneI.dll">
+      <PackagePath>DwmSceneI.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\DWriteCore.dll">
+      <PackagePath>DWriteCore.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\marshal.dll">
+      <PackagePath>marshal.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.DirectManipulation.dll">
+      <PackagePath>Microsoft.DirectManipulation.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Graphics.Display.dll">
+      <PackagePath>Microsoft.Graphics.Display.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Graphics.Imaging.dll">
+      <PackagePath>Microsoft.Graphics.Imaging.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.InputStateManager.dll">
+      <PackagePath>Microsoft.InputStateManager.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Internal.FrameworkUdk.dll">
+      <PackagePath>Microsoft.Internal.FrameworkUdk.dll</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.Composition.OSSupport.dll">
+      <PackagePath>Microsoft.UI.Composition.OSSupport.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.dll">
+      <PackagePath>Microsoft.UI.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.Input.dll">
+      <PackagePath>Microsoft.UI.Input.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.Windowing.Core.dll">
+      <PackagePath>Microsoft.UI.Windowing.Core.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.Windowing.dll">
+      <PackagePath>Microsoft.UI.Windowing.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.Xaml.Controls.dll">
+      <PackagePath>Microsoft.UI.Xaml.Controls.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.ui.xaml.dll">
+      <PackagePath>Microsoft.ui.xaml.dll</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.Xaml.Internal.dll">
+      <PackagePath>Microsoft.UI.Xaml.Internal.dll</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.Xaml.Phone.dll">
+      <PackagePath>Microsoft.UI.Xaml.Phone.dll</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.ui.xaml.resources.19h1.dll">
+      <PackagePath>Microsoft.ui.xaml.resources.19h1.dll</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.ui.xaml.resources.common.dll">
+      <PackagePath>Microsoft.ui.xaml.resources.common.dll</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.AI.ContentSafety.dll">
+      <PackagePath>Microsoft.Windows.AI.ContentSafety.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.AI.Imaging.dll">
+      <PackagePath>Microsoft.Windows.AI.Imaging.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.AI.Text.dll">
+      <PackagePath>Microsoft.Windows.AI.Text.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.ApplicationModel.Resources.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Resources.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.Widgets.dll">
+      <PackagePath>Microsoft.Windows.Widgets.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.Workloads.dll">
+      <PackagePath>Microsoft.Windows.Workloads.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.Workloads.Resources.dll">
+      <PackagePath>Microsoft.Windows.Workloads.Resources.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.Workloads.Resources_ec.dll">
+      <PackagePath>Microsoft.Windows.Workloads.Resources_ec.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.WindowsAppRuntime.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.WindowsAppRuntime.Insights.Resource.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Insights.Resource.dll</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\MRM.dll">
+      <PackagePath>MRM.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\NpuDetect\NPUDetect.dll">
+      <PackagePath>NpuDetect\NPUDetect.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\PushNotificationsLongRunningTask.ProxyStub.dll">
+      <PackagePath>PushNotificationsLongRunningTask.ProxyStub.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\SessionHandleIPCProxyStub.dll">
+      <PackagePath>SessionHandleIPCProxyStub.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\WindowsAppRuntime.DeploymentExtensions.OneCore.dll">
+      <PackagePath>WindowsAppRuntime.DeploymentExtensions.OneCore.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\WindowsAppSdk.AppxDeploymentExtensions.Desktop-EventLog-Instrumentation.dll">
+      <PackagePath>WindowsAppSdk.AppxDeploymentExtensions.Desktop-EventLog-Instrumentation.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\WindowsAppSdk.AppxDeploymentExtensions.Desktop.dll">
+      <PackagePath>WindowsAppSdk.AppxDeploymentExtensions.Desktop.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\WinUIEdit.dll">
+      <PackagePath>WinUIEdit.dll</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\wuceffectsi.dll">
+      <PackagePath>wuceffectsi.dll</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\workloads.365.json">
+      <PackagePath>workloads.365.json</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\workloads.json">
+      <PackagePath>workloads.json</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\workloads.lnl.json">
+      <PackagePath>workloads.lnl.json</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\workloads.qnn.json">
+      <PackagePath>workloads.qnn.json</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\workloads.stx.json">
+      <PackagePath>workloads.stx.json</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\RestartAgent.exe">
+      <PackagePath>RestartAgent.exe</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.Xaml\Assets\map.html">
+      <PackagePath>Microsoft.UI.Xaml\Assets\map.html</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\af-ZA\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>af-ZA\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\af-ZA\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>af-ZA\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\am-ET\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>am-ET\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\am-ET\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>am-ET\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ar-SA\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>ar-SA\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ar-SA\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>ar-SA\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\as-IN\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>as-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\as-IN\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>as-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\az-Latn-AZ\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>az-Latn-AZ\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\az-Latn-AZ\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>az-Latn-AZ\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\bg-BG\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>bg-BG\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\bg-BG\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>bg-BG\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\bn-IN\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>bn-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\bn-IN\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>bn-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\bs-Latn-BA\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>bs-Latn-BA\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\bs-Latn-BA\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>bs-Latn-BA\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ca-Es-VALENCIA\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>ca-Es-VALENCIA\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ca-Es-VALENCIA\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>ca-Es-VALENCIA\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ca-ES\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>ca-ES\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ca-ES\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>ca-ES\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\cs-CZ\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>cs-CZ\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\cs-CZ\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>cs-CZ\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\cy-GB\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>cy-GB\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\cy-GB\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>cy-GB\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\da-DK\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>da-DK\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\da-DK\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>da-DK\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\de-DE\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>de-DE\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\de-DE\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>de-DE\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\el-GR\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>el-GR\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\el-GR\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>el-GR\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\en-GB\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>en-GB\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\en-GB\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>en-GB\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\en-us\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>en-us\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\en-us\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>en-us\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\es-ES\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>es-ES\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\es-ES\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>es-ES\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\es-MX\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>es-MX\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\es-MX\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>es-MX\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\et-EE\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>et-EE\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\et-EE\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>et-EE\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\eu-ES\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>eu-ES\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\eu-ES\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>eu-ES\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\fa-IR\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>fa-IR\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\fa-IR\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>fa-IR\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\fi-FI\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>fi-FI\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\fi-FI\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>fi-FI\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\fil-PH\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>fil-PH\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\fil-PH\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>fil-PH\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\fr-CA\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>fr-CA\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\fr-CA\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>fr-CA\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\fr-FR\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>fr-FR\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\fr-FR\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>fr-FR\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ga-IE\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>ga-IE\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ga-IE\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>ga-IE\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\gd-gb\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>gd-gb\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\gd-gb\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>gd-gb\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\gl-ES\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>gl-ES\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\gl-ES\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>gl-ES\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\gu-IN\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>gu-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\gu-IN\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>gu-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\he-IL\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>he-IL\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\he-IL\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>he-IL\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\hi-IN\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>hi-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\hi-IN\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>hi-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\hr-HR\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>hr-HR\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\hr-HR\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>hr-HR\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\hu-HU\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>hu-HU\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\hu-HU\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>hu-HU\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\hy-AM\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>hy-AM\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\hy-AM\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>hy-AM\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\id-ID\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>id-ID\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\id-ID\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>id-ID\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\is-IS\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>is-IS\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\is-IS\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>is-IS\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\it-IT\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>it-IT\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\it-IT\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>it-IT\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ja-JP\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>ja-JP\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ja-JP\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>ja-JP\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ka-GE\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>ka-GE\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ka-GE\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>ka-GE\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\kk-KZ\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>kk-KZ\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\kk-KZ\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>kk-KZ\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\km-KH\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>km-KH\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\km-KH\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>km-KH\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\kn-IN\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>kn-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\kn-IN\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>kn-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ko-KR\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>ko-KR\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ko-KR\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>ko-KR\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\kok-IN\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>kok-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\kok-IN\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>kok-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\lb-LU\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>lb-LU\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\lb-LU\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>lb-LU\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\lo-LA\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>lo-LA\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\lo-LA\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>lo-LA\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\lt-LT\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>lt-LT\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\lt-LT\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>lt-LT\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\lv-LV\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>lv-LV\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\lv-LV\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>lv-LV\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\mi-NZ\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>mi-NZ\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\mi-NZ\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>mi-NZ\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\mk-MK\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>mk-MK\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\mk-MK\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>mk-MK\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ml-IN\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>ml-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ml-IN\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>ml-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\mr-IN\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>mr-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\mr-IN\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>mr-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ms-MY\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>ms-MY\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ms-MY\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>ms-MY\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\mt-MT\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>mt-MT\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\mt-MT\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>mt-MT\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\nb-NO\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>nb-NO\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\nb-NO\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>nb-NO\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ne-NP\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>ne-NP\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ne-NP\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>ne-NP\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\nl-NL\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>nl-NL\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\nl-NL\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>nl-NL\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\nn-NO\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>nn-NO\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\nn-NO\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>nn-NO\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\or-IN\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>or-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\or-IN\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>or-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\pa-IN\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>pa-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\pa-IN\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>pa-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\pl-PL\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>pl-PL\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\pl-PL\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>pl-PL\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\pt-BR\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>pt-BR\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\pt-BR\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>pt-BR\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\pt-PT\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>pt-PT\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\pt-PT\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>pt-PT\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\quz-PE\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>quz-PE\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\quz-PE\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>quz-PE\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ro-RO\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>ro-RO\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ro-RO\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>ro-RO\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ru-RU\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>ru-RU\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ru-RU\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>ru-RU\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\sk-SK\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>sk-SK\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\sk-SK\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>sk-SK\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\sl-SI\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>sl-SI\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\sl-SI\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>sl-SI\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\sq-AL\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>sq-AL\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\sq-AL\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>sq-AL\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\sr-Cyrl-BA\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>sr-Cyrl-BA\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\sr-Cyrl-BA\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>sr-Cyrl-BA\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\sr-Cyrl-RS\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>sr-Cyrl-RS\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\sr-Cyrl-RS\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>sr-Cyrl-RS\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\sr-Latn-RS\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>sr-Latn-RS\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\sr-Latn-RS\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>sr-Latn-RS\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\sv-SE\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>sv-SE\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\sv-SE\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>sv-SE\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ta-IN\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>ta-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ta-IN\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>ta-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\te-IN\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>te-IN\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\te-IN\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>te-IN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\th-TH\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>th-TH\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\th-TH\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>th-TH\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\tr-TR\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>tr-TR\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\tr-TR\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>tr-TR\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\tt-RU\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>tt-RU\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\tt-RU\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>tt-RU\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ug-CN\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>ug-CN\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ug-CN\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>ug-CN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\uk-UA\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>uk-UA\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\uk-UA\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>uk-UA\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ur-PK\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>ur-PK\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\ur-PK\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>ur-PK\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\uz-Latn-UZ\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>uz-Latn-UZ\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\uz-Latn-UZ\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>uz-Latn-UZ\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\vi-VN\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>vi-VN\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\vi-VN\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>vi-VN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\zh-CN\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>zh-CN\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\zh-CN\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>zh-CN\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\zh-TW\Microsoft.ui.xaml.dll.mui">
+      <PackagePath>zh-TW\Microsoft.ui.xaml.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\zh-TW\Microsoft.UI.Xaml.Phone.dll.mui">
+      <PackagePath>zh-TW\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.Xaml\Assets\NoiseAsset_256x256_PNG.png">
+      <PackagePath>Microsoft.UI.Xaml\Assets\NoiseAsset_256x256_PNG.png</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\WindowsAppRuntime.png">
+      <PackagePath>WindowsAppRuntime.png</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Foundation.winmd">
+      <PackagePath>Microsoft.Foundation.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Graphics.Imaging.winmd">
+      <PackagePath>Microsoft.Graphics.Imaging.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Graphics.ImagingInternal.winmd">
+      <PackagePath>Microsoft.Graphics.ImagingInternal.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Graphics.Internal.Imaging.winmd">
+      <PackagePath>Microsoft.Graphics.Internal.Imaging.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Graphics.winmd">
+      <PackagePath>Microsoft.Graphics.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Security.Authentication.OAuth.winmd">
+      <PackagePath>Microsoft.Security.Authentication.OAuth.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.Text.winmd">
+      <PackagePath>Microsoft.UI.Text.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.winmd">
+      <PackagePath>Microsoft.UI.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.Xaml.winmd">
+      <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.AI.ContentModerationInternal.winmd">
+      <PackagePath>Microsoft.Windows.AI.ContentModerationInternal.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.AI.ContentSafety.winmd">
+      <PackagePath>Microsoft.Windows.AI.ContentSafety.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.AI.Foundation.winmd">
+      <PackagePath>Microsoft.Windows.AI.Foundation.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.AI.FoundationInternal.winmd">
+      <PackagePath>Microsoft.Windows.AI.FoundationInternal.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.AI.GenerativeInternal.winmd">
+      <PackagePath>Microsoft.Windows.AI.GenerativeInternal.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.AI.Imaging.winmd">
+      <PackagePath>Microsoft.Windows.AI.Imaging.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.AI.Text.winmd">
+      <PackagePath>Microsoft.Windows.AI.Text.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.AI.winmd">
+      <PackagePath>Microsoft.Windows.AI.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.winmd">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.ApplicationModel.Background.winmd">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Background.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.ApplicationModel.DynamicDependency.winmd">
+      <PackagePath>Microsoft.Windows.ApplicationModel.DynamicDependency.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.ApplicationModel.Resources.winmd">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Resources.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.winmd">
+      <PackagePath>Microsoft.Windows.ApplicationModel.WindowsAppRuntime.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.AppLifecycle.winmd">
+      <PackagePath>Microsoft.Windows.AppLifecycle.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.AppNotifications.Builder.winmd">
+      <PackagePath>Microsoft.Windows.AppNotifications.Builder.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.AppNotifications.winmd">
+      <PackagePath>Microsoft.Windows.AppNotifications.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.BadgeNotifications.winmd">
+      <PackagePath>Microsoft.Windows.BadgeNotifications.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.Globalization.winmd">
+      <PackagePath>Microsoft.Windows.Globalization.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.Internal.Vision.winmd">
+      <PackagePath>Microsoft.Windows.Internal.Vision.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.Management.Deployment.winmd">
+      <PackagePath>Microsoft.Windows.Management.Deployment.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.Media.Capture.winmd">
+      <PackagePath>Microsoft.Windows.Media.Capture.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.Private.Workloads.SessionManager.winmd">
+      <PackagePath>Microsoft.Windows.Private.Workloads.SessionManager.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.PrivateCommon.winmd">
+      <PackagePath>Microsoft.Windows.PrivateCommon.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.PushNotifications.winmd">
+      <PackagePath>Microsoft.Windows.PushNotifications.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.Security.AccessControl.winmd">
+      <PackagePath>Microsoft.Windows.Security.AccessControl.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.SemanticSearch.winmd">
+      <PackagePath>Microsoft.Windows.SemanticSearch.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.Storage.winmd">
+      <PackagePath>Microsoft.Windows.Storage.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.System.Power.winmd">
+      <PackagePath>Microsoft.Windows.System.Power.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.System.winmd">
+      <PackagePath>Microsoft.Windows.System.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.Vision.winmd">
+      <PackagePath>Microsoft.Windows.Vision.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.VisionInternal.winmd">
+      <PackagePath>Microsoft.Windows.VisionInternal.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.Widgets.winmd">
+      <PackagePath>Microsoft.Windows.Widgets.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.Windows.Workloads.winmd">
+      <PackagePath>Microsoft.Windows.Workloads.winmd</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.16\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -782,267 +1846,171 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2024-11-11T17:23:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.ai\1.8.38\lib\net6.0-windows10.0.17763.0\Microsoft.Graphics.Imaging.Projection.dll">
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Graphics.Imaging.Projection.dll">
       <PackagePath>Microsoft.Graphics.Imaging.Projection.dll</PackagePath>
-      <Modified>2025-09-15T20:44:42.000</Modified>
+      <Modified>2025-05-13T21:41:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.ai\1.8.38\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.AI.ContentSafety.Projection.dll">
-      <PackagePath>Microsoft.Windows.AI.ContentSafety.Projection.dll</PackagePath>
-      <Modified>2025-09-15T20:44:42.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.ai\1.8.38\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.AI.Foundation.Projection.dll">
-      <PackagePath>Microsoft.Windows.AI.Foundation.Projection.dll</PackagePath>
-      <Modified>2025-09-15T20:44:42.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.ai\1.8.38\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.AI.Imaging.Projection.dll">
-      <PackagePath>Microsoft.Windows.AI.Imaging.Projection.dll</PackagePath>
-      <Modified>2025-09-15T20:44:42.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.ai\1.8.38\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.AI.Projection.dll">
-      <PackagePath>Microsoft.Windows.AI.Projection.dll</PackagePath>
-      <Modified>2025-09-15T20:44:42.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.ai\1.8.38\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.AI.Text.Projection.dll">
-      <PackagePath>Microsoft.Windows.AI.Text.Projection.dll</PackagePath>
-      <Modified>2025-09-15T20:44:42.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Security.Authentication.OAuth.Projection.dll">
-      <PackagePath>Microsoft.Security.Authentication.OAuth.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:10.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.AppLifecycle.Projection.dll">
-      <PackagePath>Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll">
-      <PackagePath>Microsoft.Windows.AppNotifications.Builder.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.AppNotifications.Projection.dll">
-      <PackagePath>Microsoft.Windows.AppNotifications.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.ApplicationModel.Background.Projection.dll">
-      <PackagePath>Microsoft.Windows.ApplicationModel.Background.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
-      <PackagePath>Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
-      <PackagePath>Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:42.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
-      <PackagePath>Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.BadgeNotifications.Projection.dll">
-      <PackagePath>Microsoft.Windows.BadgeNotifications.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.Foundation.Projection.dll">
-      <PackagePath>Microsoft.Windows.Foundation.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.Management.Deployment.Projection.dll">
-      <PackagePath>Microsoft.Windows.Management.Deployment.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.Media.Capture.Projection.dll">
-      <PackagePath>Microsoft.Windows.Media.Capture.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.PushNotifications.Projection.dll">
-      <PackagePath>Microsoft.Windows.PushNotifications.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.Security.AccessControl.Projection.dll">
-      <PackagePath>Microsoft.Windows.Security.AccessControl.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.Storage.Pickers.Projection.dll">
-      <PackagePath>Microsoft.Windows.Storage.Pickers.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.Storage.Projection.dll">
-      <PackagePath>Microsoft.Windows.Storage.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.System.Power.Projection.dll">
-      <PackagePath>Microsoft.Windows.System.Power.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.System.Projection.dll">
-      <PackagePath>Microsoft.Windows.System.Projection.dll</PackagePath>
-      <Modified>2025-09-06T23:02:12.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
-      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
-      <Modified>2025-09-06T23:02:14.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.interactiveexperiences\1.8.250906004\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
-      <Modified>2025-09-06T11:38:40.000</Modified>
+      <Modified>2025-05-30T01:21:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.ml\1.8.2091\lib\net8.0\Microsoft.ML.OnnxRuntime.dll">
-      <PackagePath>Microsoft.ML.OnnxRuntime.dll</PackagePath>
-      <Modified>2025-09-10T22:33:32.000</Modified>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Security.Authentication.OAuth.Projection.dll">
+      <PackagePath>Microsoft.Security.Authentication.OAuth.Projection.dll</PackagePath>
+      <Modified>2025-06-05T21:49:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.widgets\1.8.250904007\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.Widgets.Projection.dll">
-      <PackagePath>Microsoft.Windows.Widgets.Projection.dll</PackagePath>
-      <Modified>2025-09-05T02:13:54.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.winui\1.8.250906003\lib\net6.0-windows10.0.17763.0\Microsoft.WinUI.dll">
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.WinUI.dll">
       <PackagePath>Microsoft.WinUI.dll</PackagePath>
-      <Modified>2025-09-07T02:47:34.000</Modified>
+      <Modified>2025-06-06T05:07:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.web.webview2\1.0.3179.45\runtimes\win-x64\native\WebView2Loader.dll">
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AI.ContentSafety.Projection.dll">
+      <PackagePath>Microsoft.Windows.AI.ContentSafety.Projection.dll</PackagePath>
+      <Modified>2025-05-13T21:41:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AI.Imaging.Projection.dll">
+      <PackagePath>Microsoft.Windows.AI.Imaging.Projection.dll</PackagePath>
+      <Modified>2025-05-13T21:41:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AI.Projection.dll">
+      <PackagePath>Microsoft.Windows.AI.Projection.dll</PackagePath>
+      <Modified>2025-05-13T21:41:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AI.Text.Projection.dll">
+      <PackagePath>Microsoft.Windows.AI.Text.Projection.dll</PackagePath>
+      <Modified>2025-05-13T21:41:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
+      <Modified>2025-06-05T21:49:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Builder.Projection.dll</PackagePath>
+      <Modified>2025-06-05T21:49:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Projection.dll</PackagePath>
+      <Modified>2025-06-05T21:49:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Background.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Background.Projection.dll</PackagePath>
+      <Modified>2025-06-05T21:49:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
+      <Modified>2025-06-05T21:49:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
+      <Modified>2025-06-05T21:50:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
+      <Modified>2025-06-05T21:49:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.BadgeNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.BadgeNotifications.Projection.dll</PackagePath>
+      <Modified>2025-06-05T21:49:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Management.Deployment.Projection.dll">
+      <PackagePath>Microsoft.Windows.Management.Deployment.Projection.dll</PackagePath>
+      <Modified>2025-06-05T21:49:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Media.Capture.Projection.dll">
+      <PackagePath>Microsoft.Windows.Media.Capture.Projection.dll</PackagePath>
+      <Modified>2025-06-05T21:49:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.PushNotifications.Projection.dll</PackagePath>
+      <Modified>2025-06-05T21:49:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll">
+      <PackagePath>Microsoft.Windows.Security.AccessControl.Projection.dll</PackagePath>
+      <Modified>2025-06-05T21:49:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Storage.Projection.dll">
+      <PackagePath>Microsoft.Windows.Storage.Projection.dll</PackagePath>
+      <Modified>2025-06-05T21:49:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Power.Projection.dll</PackagePath>
+      <Modified>2025-06-05T21:49:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Projection.dll</PackagePath>
+      <Modified>2025-06-05T21:49:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll">
+      <PackagePath>Microsoft.Windows.Widgets.Projection.dll</PackagePath>
+      <Modified>2025-05-22T21:56:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+      <Modified>2025-06-05T21:50:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.web.webview2\1.0.2903.40\runtimes\win-x64\native\WebView2Loader.dll">
       <PackagePath>WebView2Loader.dll</PackagePath>
-      <Modified>2025-03-30T09:04:32.000</Modified>
+      <Modified>2024-11-10T08:57:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\runtimes\win-x64\native\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll">
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\runtimes\win-x64\native\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll">
       <PackagePath>Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll</PackagePath>
-      <Modified>2025-09-06T23:01:30.000</Modified>
+      <Modified>2025-06-05T21:49:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\runtimes\win-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk\1.7.250606001\runtimes\win-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
-      <Modified>2025-09-06T23:01:30.000</Modified>
+      <Modified>2025-06-05T21:49:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.ml\1.8.2091\runtimes\win-x64\native\onnxruntime.lib">
-      <PackagePath>onnxruntime.lib</PackagePath>
-      <Modified>2025-09-10T22:33:32.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.web.webview2\1.0.3179.45\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.web.webview2\1.0.2903.40\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
-      <Modified>2025-03-30T09:04:20.000</Modified>
+      <Modified>2024-11-10T08:58:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.web.webview2\1.0.3179.45\lib_manual\net8.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll">
+    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.web.webview2\1.0.2903.40\lib_manual\net8.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
-      <Modified>2025-03-30T09:04:20.000</Modified>
+      <Modified>2024-11-10T08:57:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.ml\1.8.2091\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.AI.MachineLearning.Projection.dll">
-      <PackagePath>Microsoft.Windows.AI.MachineLearning.Projection.dll</PackagePath>
-      <Modified>2025-09-10T22:33:32.000</Modified>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.pri">
+      <PackagePath>Microsoft.UI.pri</PackagePath>
+      <Modified>2025-06-06T11:29:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\HelliComp10.deps.json">
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.Xaml.Controls.pri">
+      <PackagePath>Microsoft.UI.Xaml.Controls.pri</PackagePath>
+      <Modified>2025-06-06T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\HelliComp10.deps.json">
       <PackagePath>HelliComp10.deps.json</PackagePath>
-      <Modified>2025-10-03T14:12:09.343</Modified>
+      <Modified>2025-08-29T10:08:13.009</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\Assets\cd.png">
-      <PackagePath>Assets\cd.png</PackagePath>
-      <Modified>2025-09-21T17:50:14.262</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\Assets\cl.png">
-      <PackagePath>Assets\cl.png</PackagePath>
-      <Modified>2025-09-21T17:37:57.713</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\Assets\cmd.exe">
-      <PackagePath>Assets\cmd.exe</PackagePath>
-      <Modified>2025-09-10T10:35:15.607</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\Assets\consola.ttf">
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\Assets\consola.ttf">
       <PackagePath>Assets\consola.ttf</PackagePath>
       <Modified>2024-04-01T07:22:09.153</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\Assets\index.html">
-      <PackagePath>Assets\index.html</PackagePath>
-      <Modified>2025-10-02T11:14:08.102</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2025-06-21T07:19:31.214</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\Assets\Logo.png">
-      <PackagePath>Assets\Logo.png</PackagePath>
-      <Modified>2025-08-29T10:02:44.855</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\Assets\pd.png">
-      <PackagePath>Assets\pd.png</PackagePath>
-      <Modified>2025-09-21T17:35:27.897</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\Assets\pl.png">
-      <PackagePath>Assets\pl.png</PackagePath>
-      <Modified>2025-09-21T17:37:06.223</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\Assets\powershell.exe">
-      <PackagePath>Assets\powershell.exe</PackagePath>
-      <Modified>2025-09-10T10:35:24.308</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <Modified>2025-06-21T07:19:31.216</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <Modified>2025-06-21T07:19:31.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <Modified>2025-06-21T07:19:31.219</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <Modified>2025-06-21T07:19:31.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <Modified>2025-06-21T07:19:31.221</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\Assets\Ubuntu-Regular.ttf">
-      <PackagePath>Assets\Ubuntu-Regular.ttf</PackagePath>
-      <Modified>2025-09-20T09:42:49.436</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\HelliComp10\HelliComp10\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <Modified>2025-06-21T07:19:31.222</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\.nuget\packages\microsoft.web.webview2\1.0.3179.45\build\..\lib\Microsoft.Web.WebView2.Core.winmd">
-      <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
-      <Modified>2025-03-30T09:03:56.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
-      <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-10-03T14:15:56.434</Modified>
-    </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250916003\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.8.msix">
-      <Name>Microsoft.WindowsAppRuntime.1.8</Name>
-      <Version>8000.625.330.0</Version>
-      <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.8, MinVersion = 8000.625.330.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250916003\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.8.msix</AppxLocation>
-      <MoreInfo>
-      </MoreInfo>
-    </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250916003\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.8.msix">
-      <Name>Microsoft.WindowsAppRuntime.1.8</Name>
-      <Version>8000.625.330.0</Version>
-      <Architecture>win32</Architecture>
-      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.8, MinVersion = 8000.625.330.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250916003\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.8.msix</AppxLocation>
-      <MoreInfo>
-      </MoreInfo>
-    </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250916003\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.8.msix">
-      <Name>Microsoft.WindowsAppRuntime.1.8</Name>
-      <Version>8000.625.330.0</Version>
-      <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.8, MinVersion = 8000.625.330.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250916003\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.8.msix</AppxLocation>
-      <MoreInfo>
-      </MoreInfo>
-    </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250916003\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.8.msix">
-      <Name>Microsoft.WindowsAppRuntime.1.8</Name>
-      <Version>8000.625.330.0</Version>
-      <Architecture>arm64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.8, MinVersion = 8000.625.330.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\moham\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250916003\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.8.msix</AppxLocation>
-      <MoreInfo>
-      </MoreInfo>
-    </ResolvedSDKReference>
   </ItemGroup>
 </Project>

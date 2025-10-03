@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HelliComp10")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fdccd640aefd87b06171b4378b3fb08f473da5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("HelliComp10")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HelliComp10")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

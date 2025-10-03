@@ -52,11 +52,11 @@
           "dependencies": {
             "Microsoft.Windows.SDK.BuildTools": {
               "target": "Package",
-              "version": "[10.0.26100.6584, )"
+              "version": "[10.0.26100.4948, )"
             },
             "Microsoft.WindowsAppSDK": {
               "target": "Package",
-              "version": "[1.8.250916003, )"
+              "version": "[1.7.250606001, )"
             }
           },
           "imports": [

@@ -148,6 +148,12 @@ namespace HelliComp10
         private void Content_ActualThemeChanged(FrameworkElement sender, object args)
         {
             ApplyThemeFixes(sender.ActualTheme);
+
+            // آپدیت TreeView برای تغییر آیکون‌ها با تم جدید
+            if (!string.IsNullOrEmpty(_currentFolder))
+            {
+                LoadFolder(_currentFolder);
+            }
         }
 
         private void ApplyThemeFixes(ElementTheme theme)
@@ -662,9 +668,17 @@ namespace HelliComp10
 
             try
             {
+                // Force UTF-8 برای Python (برای همه child processها مثل python.exe) - قبل از Start()
+                _process.StartInfo.EnvironmentVariables["PYTHONUTF8"] = "1";
+                // Force UTF-8 برای input هم (تا ورودی فارسی درست برسه به Python)
+                _process.StartInfo.StandardInputEncoding = Encoding.UTF8;
+
                 _process.Start();
                 _process.BeginOutputReadLine();
                 _process.BeginErrorReadLine();
+
+                // تغییر encoding کنسول به UTF-8 (برای cmd) - بعد از Start()
+                WriteHiddenCommandToCmd("chcp 65001 >nul");
 
                 // Send an echo to determine the current working directory
                 WriteHiddenCommandToCmd($"echo __CWD__:%cd%");
@@ -728,7 +742,7 @@ namespace HelliComp10
 
             if (string.IsNullOrWhiteSpace(command)) return;
 
-            // Display user input: >> for commands, raw for Python inputs to avoid confusion
+            // Display user input
             if (!_isRunningPython)
                 AppendOutput($">> {command}", isUserInput: true);
             else
@@ -741,25 +755,29 @@ namespace HelliComp10
                 return;
             }
 
+            // همیشه cls رو handle کن (حتی در Python mode) - بدون فرستادن به process
+            if (command.Equals("cls", StringComparison.OrdinalIgnoreCase))
+            {
+                OutputText.Blocks.Clear();
+                OutputText.Blocks.Add(new Paragraph());
+                InputText.Focus(FocusState.Programmatic);
+                return;  // مهم: زود return کن تا به process نرسه
+            }
+
             if (_isRunningPython)
             {
-                // Send raw input to Python (no extra newline issues; WriteLine adds \r\n which Python handles)
+                // Send raw input to Python
                 try
                 {
                     Debug.WriteLine($"Sending raw to Python: '{command}'");
                     _process.StandardInput.WriteLine(command);
-                    _process.StandardInput.Flush(); // Ensure immediate send
+                    _process.StandardInput.Flush();
                 }
                 catch (Exception ex)
                 {
                     AppendOutput($"ERROR: Unable to send input to python -> {ex.Message}");
                     _isRunningPython = false;
                 }
-            }
-            else if (command.Equals("cls", StringComparison.OrdinalIgnoreCase))
-            {
-                OutputText.Blocks.Clear();
-                OutputText.Blocks.Add(new Paragraph());
             }
             else if (command.Equals("exit", StringComparison.OrdinalIgnoreCase))
             {
