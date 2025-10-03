@@ -1889,7 +1889,6 @@ C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliCo
 C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Assets\cd.png
 C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Assets\cl.png
 C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Assets\index.html
-C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Assets\index.py.html
 C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Assets\Logo.png
 C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Assets\pd.png
 C:\Users\moham\OneDrive\Desktop\AllData\codes\HelliComp 10\Helli-Comp-10\HelliComp10\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Assets\pl.png

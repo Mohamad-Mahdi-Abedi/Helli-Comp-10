@@ -171,6 +171,7 @@ namespace HelliComp10
                 terminalresizer1.Fill = new SolidColorBrush(Color.FromArgb(255, 29, 29, 29));
                 terminalresizer2.Fill = new SolidColorBrush(Color.FromArgb(255, 29, 29, 29));
                 bottomsplitorstatusline.Fill = new SolidColorBrush(Color.FromArgb(255, 29, 29, 29));
+                filessplitor.Fill = new SolidColorBrush(Color.FromArgb(255, 29, 29, 29));
 
                 Splitter.Background = new SolidColorBrush(Color.FromArgb(255, 39, 39, 39));
                 BackOfTextBox.Fill = new SolidColorBrush(Color.FromArgb(255, 39, 39, 39));
@@ -194,6 +195,7 @@ namespace HelliComp10
                 terminalresizer1.Fill = new SolidColorBrush(Colors.LightGray);
                 terminalresizer2.Fill = new SolidColorBrush(Colors.LightGray);
                 bottomsplitorstatusline.Fill = new SolidColorBrush(Colors.LightGray);
+                filessplitor.Fill = new SolidColorBrush(Colors.LightGray);
 
                 BackOfTextBox.Fill = new SolidColorBrush(Color.FromArgb(255, 249, 249, 249));
                 BackOfFile.Fill = new SolidColorBrush(Color.FromArgb(255, 249, 249, 249));

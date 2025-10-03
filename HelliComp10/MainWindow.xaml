@@ -97,6 +97,8 @@
                                     </Button>
                                 </Grid>
                                 <Rectangle x:Name="BackOfFile" Fill="#272727" Grid.Row="1"/>
+                                <Rectangle Fill="{ThemeResource AcrylicInAppFillColorDefaultBrush}" Grid.Row="1"/>
+                                <Rectangle x:Name="filessplitor" Margin="0,-1,0,0" Height="1" HorizontalAlignment="Stretch" VerticalAlignment="Top" Grid.Row="1"/>
 
                                 <Grid Margin="10" Grid.Row="1">
                                     <!-- TreeView for files and folders -->
@@ -117,6 +119,7 @@
                             </Grid>
 
                             <Rectangle Grid.Column="2" x:Name="BackOfTextBox" Fill="#272727" Margin="0,40,0,0"/>
+                            <!--<Rectangle Fill="{ThemeResource AcrylicInAppFillColorDefaultBrush}" Margin="0,40,0,0" Grid.Column="2"/>-->
 
                             <Grid x:Name="editorandterminal" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Grid.Column="2">
                                 <Grid.RowDefinitions>
@@ -339,6 +342,8 @@
                                     PointerMoved="Splitter_PointerMoved"
                                     PointerReleased="Splitter_PointerReleased">
                                     <Grid>
+                                        <Rectangle Fill="{ThemeResource AcrylicInAppFillColorDefaultBrush}" Grid.Row="1"/>
+
                                         <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
                                             <FontIcon Glyph="&#xE756;" Margin="4,0,0,0"/>
                                             <TextBlock Text="Terminal" Margin="4,0,0,0"/>
@@ -378,9 +383,12 @@
                                         <RichTextBlock x:Name="OutputText" Margin="8" FontFamily="/Assets/Ubuntu-Regular.ttf#Ubuntu" TextTrimming="CharacterEllipsis" IsTextSelectionEnabled="True" TextWrapping="Wrap"/>
                                     </ScrollViewer>
 
+                                    <Rectangle Fill="{ThemeResource AcrylicInAppFillColorDefaultBrush}" Grid.Row="1"/>
+
                                     <Rectangle Grid.Row="1" x:Name="terminalsplitor" VerticalAlignment="Top" Height="1"/>
 
                                     <StackPanel Height="32" Grid.Row="1" Orientation="Horizontal">
+
                                         <TextBlock x:Name="CurrentDirText" IsTextSelectionEnabled="True" Margin="8,-1,0,0" Text="C:\\" FontFamily="/Assets/Ubuntu-Regular.ttf#Ubuntu" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" />
                                         <TextBox x:Name="InputText" Margin="-5,4,0,0" Width="10000" FontFamily="/Assets/Ubuntu-Regular.ttf#Ubuntu" HorizontalAlignment="Stretch" VerticalAlignment="Center" KeyDown="OnInputKeyDown" FlowDirection="LeftToRight" TextAlignment="Left">
                                             <TextBox.Resources>

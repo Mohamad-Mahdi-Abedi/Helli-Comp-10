@@ -27,15 +27,7 @@
             monaco.editor.defineTheme('dark-plus-custom', { base: 'vs-dark', inherit: true, rules: [], colors: { 'editor.background': '#272727' } });
             monaco.editor.defineTheme('light-custom', { base: 'vs', inherit: true, rules: [], colors: { 'editor.background': '#f9f9f9' } });
 
-            const sample = `class Person:
-            def __init__(self, name: str):
-                self.name = name
-
-            def say_hello(self):
-                print(f"Hello, {self.name}!")
-
-p = Person("World")
-p.say_hello()`;
+            const sample = `print("Hello World!")`;
 
             window.editor = monaco.editor.create(document.getElementById('container'), {
                 value: sample,

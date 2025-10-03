@@ -70,7 +70,7 @@
                                         <ColumnDefinition Width="auto"/>
                                     </Grid.ColumnDefinitions>
 
-                                    <TextBox x:ConnectionId='31' x:Name="SearchTextBox" PlaceholderText="Search files and folders" Margin="4" VerticalAlignment="Center">
+                                    <TextBox x:ConnectionId='32' x:Name="SearchTextBox" PlaceholderText="Search files and folders" Margin="4" VerticalAlignment="Center">
                                         <TextBox.Resources>
                                             <SolidColorBrush x:Key="TextControlBackground" Color="Transparent"/>
                                             <SolidColorBrush x:Key="TextControlBackgroundPointerOver" Color="Transparent"/>
@@ -82,7 +82,7 @@
                                             <SolidColorBrush x:Key="TextControlBorderBrushDisabled" Color="Transparent"/>
                                         </TextBox.Resources>
                                     </TextBox>
-                                    <Button x:ConnectionId='32' Grid.Column="1"
+                                    <Button x:ConnectionId='33' Grid.Column="1"
                                         VerticalAlignment="Center"
                                         Height="32"
                                         Width="32"
@@ -97,10 +97,12 @@
                                     </Button>
                                 </Grid>
                                 <Rectangle x:ConnectionId='28' x:Name="BackOfFile" Fill="#272727" Grid.Row="1"/>
+                                <Rectangle Fill="{ThemeResource AcrylicInAppFillColorDefaultBrush}" Grid.Row="1"/>
+                                <Rectangle x:ConnectionId='29' x:Name="filessplitor" Margin="0,-1,0,0" Height="1" HorizontalAlignment="Stretch" VerticalAlignment="Top" Grid.Row="1"/>
 
                                 <Grid Margin="10" Grid.Row="1">
                                     <!-- TreeView for files and folders -->
-                                    <TreeView x:ConnectionId='29' x:Name="FilesTreeView" SelectionMode="None">
+                                    <TreeView x:ConnectionId='30' x:Name="FilesTreeView" SelectionMode="None">
                                         <TreeView.ItemTemplate>
                                             <DataTemplate>
                                                 <TreeViewItem ItemsSource="{Binding Children}">
@@ -117,6 +119,7 @@
                             </Grid>
 
                             <Rectangle x:ConnectionId='9' Grid.Column="2" x:Name="BackOfTextBox" Fill="#272727" Margin="0,40,0,0"/>
+                            <!--<Rectangle Fill="{ThemeResource AcrylicInAppFillColorDefaultBrush}" Margin="0,40,0,0" Grid.Column="2"/>-->
 
                             <Grid x:ConnectionId='10' x:Name="editorandterminal" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Grid.Column="2">
                                 <Grid.RowDefinitions>
@@ -339,6 +342,8 @@
                                                                         
                                                                               >
                                     <Grid>
+                                        <Rectangle Fill="{ThemeResource AcrylicInAppFillColorDefaultBrush}" Grid.Row="1"/>
+
                                         <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
                                             <FontIcon Glyph="&#xE756;" Margin="4,0,0,0"/>
                                             <TextBlock Text="Terminal" Margin="4,0,0,0"/>
@@ -378,9 +383,12 @@
                                         <RichTextBlock x:ConnectionId='18' x:Name="OutputText" Margin="8" FontFamily="/Assets/Ubuntu-Regular.ttf#Ubuntu" TextTrimming="CharacterEllipsis" IsTextSelectionEnabled="True" TextWrapping="Wrap"/>
                                     </ScrollViewer>
 
+                                    <Rectangle Fill="{ThemeResource AcrylicInAppFillColorDefaultBrush}" Grid.Row="1"/>
+
                                     <Rectangle x:ConnectionId='15' Grid.Row="1" x:Name="terminalsplitor" VerticalAlignment="Top" Height="1"/>
 
                                     <StackPanel Height="32" Grid.Row="1" Orientation="Horizontal">
+
                                         <TextBlock x:ConnectionId='16' x:Name="CurrentDirText" IsTextSelectionEnabled="True" Margin="8,-1,0,0" Text="C:\\" FontFamily="/Assets/Ubuntu-Regular.ttf#Ubuntu" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" />
                                         <TextBox x:ConnectionId='17' x:Name="InputText" Margin="-5,4,0,0" Width="10000" FontFamily="/Assets/Ubuntu-Regular.ttf#Ubuntu" HorizontalAlignment="Stretch" VerticalAlignment="Center"                          FlowDirection="LeftToRight" TextAlignment="Left">
                                             <TextBox.Resources>
